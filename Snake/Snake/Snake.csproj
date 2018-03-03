@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D87B76D-DE07-4EFF-9E4F-C516ECCCFAD1}</ProjectGuid>
+    <ProjectGuid>{D520A397-D91C-4347-9D88-239D85CDD4C6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp2</RootNamespace>
-    <AssemblyName>ConsoleApp2</AssemblyName>
+    <RootNamespace>Snake</RootNamespace>
+    <AssemblyName>Snake</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
